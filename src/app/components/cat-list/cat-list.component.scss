@@ -1,0 +1,20 @@
+#cat-list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+
+  .cat-list-item {
+    flex: 1 1 30%;
+    margin-bottom: 15px;
+  }
+
+  #treshold-line {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    height: 1px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+}

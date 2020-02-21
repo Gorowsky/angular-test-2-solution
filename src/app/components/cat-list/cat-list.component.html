@@ -1,0 +1,17 @@
+<div id="cat-list" class="container-fluid">
+  <div class="card-deck">
+    <div class="card cat-list-item" ng-repeat="cat in $ctrl.cats">
+      <a ng-href="/details/{{cat.id}}">
+        <img ng-src="{{cat.url}}" class="card-img-top" alt="Cat picture">
+      </a>
+      <div class="card-body">
+        <p class="card-text">width: {{cat.width}}px height: {{cat.height}}px</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <div id="treshold-line"></div>
+</div>
