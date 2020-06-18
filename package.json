@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --hot --inline --config webpack.dev.js"
   },
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.0",
     "angular-route": "1.5.8",
     "bootstrap": "^4.3.1",
     "intersection-observer": "^0.6.0",
